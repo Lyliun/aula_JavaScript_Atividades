@@ -8,7 +8,7 @@ if (num1 > num2) {
     process.exit();
 }
 
-const multiplos = [];
+const multiplos = []; // Extra: Array para armazenar os múltiplos de 3 e 5
 
 for (let i = num1; i <= num2; i++) {
   if (i % 3 === 0 && i % 5 === 0) {
